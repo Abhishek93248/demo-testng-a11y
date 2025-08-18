@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="2" name="Surefire test-0(failed)" verbose="0">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="TitleCheckTest">
+        <methods>
+          <include name="testWebsiteTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TitleCheckTest -->
+    </classes>
+  </test> <!-- Surefire test-0(failed) -->
+  <test thread-count="2" name="Surefire test-1(failed)" verbose="0">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="TitleCheckTest">
+        <methods>
+          <include name="testWebsiteTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TitleCheckTest -->
+    </classes>
+  </test> <!-- Surefire test-1(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T00:56:41 IST" name="Surefire suite" finished-at="2025-08-19T00:57:27 IST" duration-ms="46408">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T00:56:41 IST" name="Surefire test-0" finished-at="2025-08-19T00:57:11 IST" duration-ms="30160">
+      <class name="TitleCheckTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TitleCheckTest@15dc339f]" started-at="2025-08-19T00:56:41 IST" name="setUp" finished-at="2025-08-19T00:56:47 IST" duration-ms="5964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWebsiteTitle()[pri:0, instance:TitleCheckTest@15dc339f]" started-at="2025-08-19T00:56:47 IST" name="testWebsiteTitle" finished-at="2025-08-19T00:56:57 IST" duration-ms="10657" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Total issue count breached the threshold! Found: 17 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Total issue count breached the threshold! Found: 17 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at TitleCheckTest.testWebsiteTitle(TitleCheckTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebsiteTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TitleCheckTest@15dc339f]" started-at="2025-08-19T00:57:04 IST" name="tearDown" finished-at="2025-08-19T00:57:11 IST" duration-ms="7100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TitleCheckTest -->
+    </test> <!-- Surefire test-0 -->
+    <test started-at="2025-08-19T00:56:41 IST" name="Surefire test-1" finished-at="2025-08-19T00:57:27 IST" duration-ms="46408">
+      <class name="TitleCheckTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TitleCheckTest@4d62f4c6]" started-at="2025-08-19T00:56:41 IST" name="setUp" finished-at="2025-08-19T00:56:55 IST" duration-ms="14114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWebsiteTitle()[pri:0, instance:TitleCheckTest@4d62f4c6]" started-at="2025-08-19T00:56:55 IST" name="testWebsiteTitle" finished-at="2025-08-19T00:57:13 IST" duration-ms="18755" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Total issue count breached the threshold! Found: 17 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Total issue count breached the threshold! Found: 17 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at TitleCheckTest.testWebsiteTitle(TitleCheckTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebsiteTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TitleCheckTest@4d62f4c6]" started-at="2025-08-19T00:57:17 IST" name="tearDown" finished-at="2025-08-19T00:57:27 IST" duration-ms="9516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TitleCheckTest -->
+    </test> <!-- Surefire test-1 -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

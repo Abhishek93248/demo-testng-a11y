@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TitleCheckTest" time="46.851" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/test-classes:/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/classes:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abhishekumeshtiwari/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/abhishekumeshtiwari/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhishekumeshtiwari/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abhishekumeshtiwari/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/abhishekumeshtiwari/.m2/repository/com/browserstack/browserstack-java-sdk/1.39.0/browserstack-java-sdk-1.39.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="OBSERVABILITY_BUILD_HASHED_ID" value="eg5rdsldscrovkra6jlkweqr9wmq0ub2v7pvafcw"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="BROWSERSTACK_LOG_DIR" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/log"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/lib"/>
+    <property name="BROWSERSTACK_TESTHUB_JWT" value="eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU1NTU1OTkwIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjk1MzY4ODAsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6Im93bmVyIn0sImdyb3VwX2lkIjo5NDQ1NTY0LCJ0ZWFtX2lkIjpudWxsLCJ1ZGFjX2FjY2VzcyI6Imdsb2JhbCJ9.EKzUSQEbWSqLRGoPdU95JsCxJDTmHcp9n4ceMuDMv6WQHWbq-KhuxZXBPocA7CdWqa-BoSCp0L7YwCPfzDHqsBvY7iorP6bsFJkkl5OKyV43a4_2IUYE4ZaKVXCLbJ82p_rFpQAhyii0bbj6BDPUVozMp0G1qRHYtRCDPl4n1qhUNtYk3js5sGI8bWaGjEjNA-6WGFLJ-1ib82OJklfO5kow9TbjAgNccpKPVzLbA2Ba8nBLfkUnQ3caHWAUZTsKXJ_E2PEWA-QRLfh0zRhLsJDDOlnlyrG93gsJ8PK6W4t5Q0bDeMHg9ipRvj6L4QzZnUpctTtfPBnHcatcGYI6Ug"/>
+    <property name="sun.java.command" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/surefire/surefirebooter-20250819005627961_3.jar /Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/surefire 2025-08-19T00-56-27_878-jvmRun1 surefire-20250819005627961_1tmp surefire_0-20250819005627961_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/test-classes:/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/classes:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abhishekumeshtiwari/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/abhishekumeshtiwari/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/abhishekumeshtiwari/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:/Users/abhishekumeshtiwari/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/abhishekumeshtiwari/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhishekumeshtiwari/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abhishekumeshtiwari/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/abhishekumeshtiwari/.m2/repository/com/browserstack/browserstack-java-sdk/1.39.0/browserstack-java-sdk-1.39.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abhishekumeshtiwari"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="BROWSERSTACK_CLI_BIN_LISTEN_ADDR" value="127.0.0.1:5400"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject/target/surefire/surefirebooter-20250819005627961_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="abhishekumeshtiwari"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BROWSERSTACK_CLI_BIN_SESSION_ID" value="08e2ddc2-3ba7-4f15-862e-9e33b9fcafbd"/>
+    <property name="localRepository" value="/Users/abhishekumeshtiwari/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/v6/_yjvbh2x3bjdggd13d5m2dgw0000gq/T/"/>
+    <property name="BROWSERSTACK_TESTHUB_UUID" value="eg5rdsldscrovkra6jlkweqr9wmq0ub2v7pvafcw"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="/Users/abhishekumeshtiwari/Downloads/SimpleTestNGProject"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/abhishekumeshtiwari/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testWebsiteTitle" classname="TitleCheckTest" time="8.908">
+    <failure message="Total issue count breached the threshold! Found: 17 expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Total issue count breached the threshold! Found: 17 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at TitleCheckTest.testWebsiteTitle(TitleCheckTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+]]></failure>
+    <system-out><![CDATA[Page Title: Most Reliable App & Cross Browser Testing Platform | BrowserStack
+Total issue count: 17
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 19, 2025 12:56:46 AM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+Aug 19, 2025 12:56:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 19, 2025 12:56:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.50. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 19, 2025 12:56:54 AM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+Aug 19, 2025 12:56:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 19, 2025 12:56:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.50. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testWebsiteTitle" classname="TitleCheckTest" time="22.724">
+    <failure message="Total issue count breached the threshold! Found: 17 expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Total issue count breached the threshold! Found: 17 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at TitleCheckTest.testWebsiteTitle(TitleCheckTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+]]></failure>
+    <system-out><![CDATA[Page Title: Most Reliable App & Cross Browser Testing Platform | BrowserStack
+Total issue count: 17
+]]></system-out>
+  </testcase>
+</testsuite>
