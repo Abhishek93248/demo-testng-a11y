@@ -17,7 +17,7 @@ public class TitleCheckTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
-
+ 
     @Test
     public void testWebsiteTitle() {
         driver.get("https://www.browserstack.com");
