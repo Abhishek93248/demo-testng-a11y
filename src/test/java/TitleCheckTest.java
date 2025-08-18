@@ -21,7 +21,7 @@ public class TitleCheckTest {
     @Test
     public void testWebsiteTitle() {
         driver.get("https://www.browserstack.com");
-        String expectedTitle = "Most Reliable App & Cross Browser Testing Platform | BrowserStack";
+        String expectedTitle = "Most Reliable App & Cross Browser Testing Platform |BrowserStack";
         String actualTitle = driver.getTitle();
         System.out.println("Page Title: " + actualTitle);
     
