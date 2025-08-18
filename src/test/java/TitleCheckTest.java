@@ -35,7 +35,7 @@ int totalIssueCount = ((Number) summary.getOrDefault("totalIssueCount", 0)).intV
 System.out.println("Total issue count: " + totalIssueCount);
 
 // ✅ Assert threshold
-Assert.assertTrue(totalIssueCount < 100, 
+Assert.assertTrue(totalIssueCount < 12, 
     "Total issue count breached the threshold! Found: " + totalIssueCount);
 // int criticalIssueCount = Integer.parseInt(String.valueOf(((Map)summary.get("issueCountBySeverity")).get("critical")));
 // System.out.println("count: " + criticalIssueCount);
