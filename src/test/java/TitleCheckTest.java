@@ -25,7 +25,7 @@ public class TitleCheckTest {
         String actualTitle = driver.getTitle();
         System.out.println("Page Title: " + actualTitle);
     
-// For Accessibility Quality Gate
+// For Accessibility Quality Gate - test2
        Map<String, Object> summary = AccessibilityUtils.getResultsSummary(driver);
 
 
