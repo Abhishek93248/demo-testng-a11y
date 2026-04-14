@@ -23,7 +23,7 @@ public class TitleCheckTest {
         driver.get("https://www.browserstack.com");
         String expectedTitle = "Most Reliable App & Cross Browser Testing Platform |BrowserStack";
         String actualTitle = driver.getTitle();
-        System.out.println("Page Title: " + actualTitle);
+        // System.out.println("Page Title: " + actualTitle);
     
 
        Map<String, Object> summary = AccessibilityUtils.getResultsSummary(driver);
