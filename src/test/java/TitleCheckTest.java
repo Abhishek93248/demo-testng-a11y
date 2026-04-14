@@ -29,7 +29,7 @@ public class TitleCheckTest {
        Map<String, Object> summary = AccessibilityUtils.getResultsSummary(driver);
 
 
-// ✅ Extract total issue count safely
+
 int totalIssueCount = ((Number) summary.getOrDefault("totalIssueCount", 0)).intValue();
 
 System.out.println("Total issue count: " + totalIssueCount);
