@@ -3,7 +3,7 @@ name: 'BrowserStack TestNG Accessibility Tests'
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: 'Setup BrowserStack Env'
         uses: browserstack/github-actions/setup-env@master
         with:
-          username:  ${{ secrets.BROWSERSTACK_USERNAME }}
+          username: ${{ secrets.BROWSERSTACK_USERNAME }}
           access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
 
       # ✅ Set up JDK
@@ -73,4 +73,3 @@ jobs:
             echo "- Failed: $FAILED" >> $GITHUB_STEP_SUMMARY
             echo "- Skipped: $SKIPPED" >> $GITHUB_STEP_SUMMARY
           fi
-
